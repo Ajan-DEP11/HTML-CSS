@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-1</title>
+    <style>
+        #outer{
+            width: 450px;
+            height: 450px;
+            background-color: yellow;
+            position: relative;
+        }
+        #inner{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            /* float:right; */
+            /* margin:0 auto; */
+            /* left: 100%;
+            transform: translate(-100%); */
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+
+
+        }
+    </style>
+</head>
+<body style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <h1>Align-1</h1>
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
+    
+    
+</body>
+</html>
