@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', sans-serif;
+ 
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
